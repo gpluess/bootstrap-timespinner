@@ -94,7 +94,7 @@
       hours_interval: 1,
       hours_min: 0,
       hours_max: 24,
-      minutes_interval: 25,
+      minutes_interval: 15,
       minutes_min: 0,
       minutes_max: 60
   }
