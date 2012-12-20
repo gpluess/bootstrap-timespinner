@@ -1,5 +1,7 @@
 # Timespinner for Twitter Bootstrap
 
+[![Build Status](https://travis-ci.org/gpluess/bootstrap-timespinner.png)](http://travis-ci.org/gpluess/bootstrap-timespinner)
+
 ## Summary
 
 ## Options
