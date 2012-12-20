@@ -12,4 +12,5 @@
 
 ## History
 
-2012-11-07 v0.1 Initial Release
+2012-12-20 v0.1.1 Added basic tests
+2012-11-07 v0.1.0 Initial Release
