@@ -80,6 +80,8 @@
  /* TIMESPINNER PLUGIN DEFINITION
   * ============================== */
 
+  var old = $.fn.timespinner
+
   $.fn.timespinner = function ( option ) {
     return this.each(function () {
       var $this = $(this)
@@ -101,6 +103,14 @@
 
   $.fn.timespinner.Constructor = Timespinner
 
+
+ /* TIMESPINNER NO CONFLICT
+  * ================= */
+
+  $.fn.timespinner.noConflict = function () {
+    $.fn.timespinner = old
+    return this
+  }
 
  /* TIMESPINNER DATA-API
   * ==================== */
