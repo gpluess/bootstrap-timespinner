@@ -61,16 +61,25 @@
       if (minutes < this.options.minutes_max - this.options.minutes_interval) {
         minutes += this.options.minutes_interval
       } else {
-        // minutes = this.options.minutes_min
         minutes = this.options.minutes_interval - (this.options.minutes_max - minutes)
-        hours += this.options.hours_interval
+
+        if (hours < this.options.hours_max - this.options.hours_interval) {
+          hours += this.options.hours_interval
+        } else {
+          hours = this.options.hours_min
+        }
       }
     } else {
       if (minutes >= this.options.minutes_min + this.options.minutes_interval) {
         minutes -= this.options.minutes_interval
       } else {
         minutes = this.options.minutes_max + (minutes - this.options.minutes_interval)
-        hours -= this.options.hours_interval
+
+        if (hours >= this.options.hours_min + this.options.hours_interval) {
+          hours -= this.options.hours_interval
+        } else {
+          hours = this.options.hours_max + (hours - this.options.hours_interval)
+        }
       }
     }
     this.$element.val([pad(hours), pad(minutes)].join(':'))
