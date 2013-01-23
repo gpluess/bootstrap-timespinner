@@ -12,4 +12,13 @@ $(function () {
         ok($(document.body).timespinner, 'timespinner method is defined')
       })
 
+      test("should return element", function () {
+        var el = $("<div />")
+        ok(el.timespinner()[0] === el[0], 'same element returned')
+      })
+
+      test("should expose defaults var for settings", function () {
+        ok($.fn.timespinner.defaults, 'default object exposed')
+      })
+
 })
