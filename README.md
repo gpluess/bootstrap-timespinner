@@ -1,7 +1,7 @@
 # Timespinner for Twitter Bootstrap
 
 [![Build Status](https://travis-ci.org/gpluess/bootstrap-timespinner.png)](http://travis-ci.org/gpluess/bootstrap-timespinner)
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5f25f359e64784c2f58febc9d0e594ba "githalytics.com")](http://githalytics.com/gpluess/bootstrap-timespinner)
+[![githalytics.com alpha](https://cruel-carlota.gopagodabox.com/5f25f359e64784c2f58febc9d0e594ba "githalytics.com")](http://githalytics.com/gpluess/bootstrap-timespinner)
 
 ## Summary
 
